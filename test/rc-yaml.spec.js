@@ -6,13 +6,11 @@ var path = require('path');
 var assert = require('assert');
 var ini = require('ini');
 
-describe('rc-yaml', function() {
-  it('should parse a JSON file', function() {
-    var result = rc('test',
-      {},
-      {
-        config: path.join(__dirname, 'fixture.json')
-      });
+describe('rc-yaml', function () {
+  it('should parse a JSON file', function () {
+    var result = rc('test', {}, {
+      config: path.join(__dirname, 'fixture.json')
+    });
 
     delete result.config;
     delete result.configs;
@@ -20,12 +18,10 @@ describe('rc-yaml', function() {
     assert.deepEqual(result, fixture);
   });
 
-  it('should parse a YAML file', function() {
-    var result = rc('test',
-      {},
-      {
-        config: path.join(__dirname, 'fixture.yaml')
-      });
+  it('should parse a YAML file', function () {
+    var result = rc('test', {}, {
+      config: path.join(__dirname, 'fixture.yaml')
+    });
 
     delete result.config;
     delete result.configs;
@@ -33,12 +29,10 @@ describe('rc-yaml', function() {
     assert.deepEqual(result, fixture);
   });
 
-  it('should parse an INI file', function() {
-    var result = rc('test',
-      {},
-      {
-        config: path.join(__dirname, 'fixture.ini')
-      });
+  it('should parse an INI file', function () {
+    var result = rc('test', {}, {
+      config: path.join(__dirname, 'fixture.ini')
+    });
 
     delete result.config;
     delete result.configs;
