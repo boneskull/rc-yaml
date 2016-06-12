@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/digsjs/rc-yaml.git"
+    "url": "git+https://github.com/boneskull/rc-yaml.git"
   },
   "keywords": [
     "rc",
@@ -20,9 +20,9 @@
   "author": "Christopher Hiller <boneskull@boneskull.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digsjs/rc-yaml/issues"
+    "url": "https://github.com/boneskull/rc-yaml/issues"
   },
-  "homepage": "https://github.com/digsjs/rc-yaml#readme",
+  "homepage": "https://github.com/boneskull/rc-yaml#readme",
   "dependencies": {
     "ini": "^1.3.4",
     "rc": "^1.0.3",
