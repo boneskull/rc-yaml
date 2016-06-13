@@ -1,6 +1,6 @@
 {
   "name": "rc-yaml",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Extend the RC module with YAML parsing",
   "main": "lib/rc-yaml.js",
   "scripts": {
