@@ -40,6 +40,3 @@ Using `peerDependencies` here may be more politically correct, but at a cost.  S
 ## License
 
 MIT
-
- 
-
